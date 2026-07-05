@@ -1,0 +1,2 @@
+# parametrizacionActivosFijos
+Desarrollo
