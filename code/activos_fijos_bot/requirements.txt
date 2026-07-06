@@ -1,0 +1,19 @@
+# Versiones alineadas con las que exige an0016001_appian_flow
+# (ver an0016001_appian_flow-1.0.3.dist-info/METADATA en la raíz del repo)
+# para evitar conflictos de dependencias cuando se instale la librería
+# real en el PC de la empresa.
+selenium==4.36.0
+pandas>=1.5.0
+
+# Lectura/escritura de Excel (Fase 2).
+openpyxl>=3.1.0
+
+# Carga de variables de entorno desde .env (config/settings.py).
+python-dotenv>=1.0.0
+
+# Pruebas unitarias.
+pytest>=7.4.0
+
+# La librería de Appian NO se instala aquí: solo está disponible desde la
+# red interna del banco. En el PC de la empresa:
+#   pip install an0016001_appian_flow

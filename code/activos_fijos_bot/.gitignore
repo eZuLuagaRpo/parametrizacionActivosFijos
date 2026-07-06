@@ -1,0 +1,14 @@
+# Credenciales y configuración local — nunca se sube al repositorio.
+.env
+
+# Artefactos generados en tiempo de ejecución del bot.
+logs/
+downloads/
+output/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
